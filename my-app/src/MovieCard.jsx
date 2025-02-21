@@ -11,10 +11,12 @@ const MovieCard = ({ movie }) => {
             </div>
             <div>
                 <span>{movie.Type}</span>
-                <h1>{movie.Title}</h1>
+                <h2>{movie.Title}</h2>
             </div>
         </div>
     )
 }
+
+// TODO: Maybe implement click on card to open a window with details about movie :)
 
 export default MovieCard;
